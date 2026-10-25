@@ -1,0 +1,50 @@
+[
+    {
+        "donation_id": "DON001",
+        "donor_id": "DNR002",
+        "food_name": "Biriyaani",
+        "quantity": 20,
+        "unit": "Kg",
+        "location": "Chennai",
+        "location_details": {
+            "name": "Chennai",
+            "state": "Tamil Nadu",
+            "country": "India",
+            "latitude": 13.0878,
+            "longitude": 80.2785
+        },
+        "available_until": "2026-10-25T20:00:00",
+        "contact_name": "Paul",
+        "contact_phone": "9876543210",
+        "notes": "",
+        "status": "Delivered",
+        "volunteer_id": "VOL103",
+        "created_at": "2026-10-25T19:08:02",
+        "history": [
+            {
+                "status": "Available",
+                "changed_by": "DNR002",
+                "at": "2026-10-25T19:08:02",
+                "note": "Donation created"
+            },
+            {
+                "status": "Claimed",
+                "changed_by": "VOL103",
+                "at": "2026-10-25T19:09:14",
+                "note": "Claimed by volunteer"
+            },
+            {
+                "status": "Picked Up",
+                "changed_by": "VOL103",
+                "at": "2026-10-25T19:09:50",
+                "note": "Food collected from donor"
+            },
+            {
+                "status": "Delivered",
+                "changed_by": "VOL103",
+                "at": "2026-10-25T19:11:45",
+                "note": "Food delivered"
+            }
+        ]
+    }
+]
